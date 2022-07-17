@@ -1,0 +1,366 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-height: 300vh;
+}
+
+header {
+    padding: 15px;
+    background: linear-gradient(45deg, #01d741, #3a9c97);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navegador {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+}
+
+.Frase_logo span {
+    font-size: 45px;
+    color: white;
+    font-weight: 900;
+    padding: 15px;
+    margin-left: 65px;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.Frase_logo span:hover {
+    color: rgb(238, 236, 236);
+    cursor: context-menu;
+}
+
+.cabecalho ul li {
+    display: inline-block;
+    position: relative;
+    padding: 7px;
+    font-size: 19px;
+    padding: 15px;
+    margin-right: 25px;
+}
+
+
+.cabecalho ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.cabecalho ul li a:active {
+    color: rgb(194, 194, 194);
+}
+
+.cabecalho ul li a:hover {
+    color: rgb(194, 194, 194);
+
+}
+
+.cabecalho ul li ul {
+    display: none;
+    position: absolute;
+    font-size: 25px;
+    padding: 2px;
+    width: 110px;
+}
+
+.cabecalho ul li:hover ul {
+    display: block;
+    background-color: white;
+    font-weight: 400;
+    border-radius: 12px;
+    transition: all 0.5s ease;
+}
+
+.cabecalho ul li ul li a {
+    color: #17ae44;
+
+}
+
+.cabecalho ul li ul li a:hover {
+    letter-spacing: 0.5px;
+    color: rgb(76, 100, 83);
+    transition: all 0.3s ease;
+}
+
+.parte__secundaria {
+    background-image: url(boa-vista_2.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    height: 400px;
+    padding: 5px;
+
+}
+
+.parte__secundaria:hover {
+    opacity: 90%;
+    transition: all 2s ease;
+}
+
+
+.frase_filosofica span {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100px;
+
+}
+
+.frase_filosofica .um {
+    font-size: 45px;
+    font-weight: bold;
+    padding: 10px;
+    color: rgb(59, 59, 59);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    width: 72%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    background: linear-gradient(45deg, #a9fdb6, #21f460);
+
+}
+
+.frase_filosofica .um:hover {
+    letter-spacing: 0.4px;
+    transition: all 1.5s ease-in-out;
+    cursor: pointer;
+    opacity: 0;
+}
+
+body {
+    background: linear-gradient(45deg, #f9f9f9, #d3fffd);
+}
+
+.parte__ternaria {
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 100px;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.frases_marketing h1 {
+    font-size: 45px;
+    padding: 25px;
+    margin-bottom: 17px;
+
+}
+
+.frases_marketing h2 {
+    font-style: italic;
+    padding: 25px;
+    font-size: 20px;
+    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.frases_marketing .credouble a {
+    color: rgb(68, 68, 68);
+    font-style: italic;
+}
+
+.frases_marketing .credouble a:hover {
+    color: black;
+    letter-spacing: 0.1px;
+    transition: all 0.2s ease-in-out;
+}
+
+.container {
+    margin-top: 4%;
+    margin-right: 200px;
+    background: linear-gradient(45deg, #01fc4c, #3a9c97);
+    padding: 1em;
+    border-radius: 10px;
+    width: 15em;
+    height: 25em;
+    box-shadow: 5px 8px 8px #000;
+}
+
+
+.cartao__um {
+    height: 80%;
+}
+
+img[alt=mastercard] {
+    width: 30%;
+}
+
+img[alt=chip] {
+    width: 40%;
+    transform: rotate(90deg);
+}
+
+img[alt=nubank] {
+    width: 35%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content_dois {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+img[alt=mastercard] {
+    width: 30%;
+}
+
+img[alt=chip] {
+    width: 40%;
+    transform: rotate(90deg);
+}
+
+img[alt=nubank] {
+    width: 35%;
+}
+
+
+.box-img {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.footer p {
+    margin-left: 5px;
+    padding: 7px;
+    font-family: sans-serif;
+}
+
+.footer p:last-child {
+    font-size: 20px;
+}
+
+
+.container_dois {
+    margin-top: 4%;
+    margin-right: 200px;
+    background: linear-gradient(45deg, #01fc4c, #3a9c97);
+    padding: 1em;
+    border-radius: 10px;
+    width: 15em;
+    height: 25em;
+    box-shadow: 5px 8px 8px #000;
+}
+
+
+.parte__quatro {
+    width: 75%;
+    height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 100px;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.cartoes_parceiros img {
+    width: 70%;
+    height: 100%;
+}
+
+.frases_marketing_dois {
+    width: 900px;
+}
+
+.frases_marketing_dois h1 {
+    font-size: 45px;
+    padding: 25px;
+    margin-bottom: 17px;
+
+}
+
+.frases_marketing_dois h2 {
+    font-style: italic;
+    padding: 25px;
+    font-size: 20px;
+    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.frases_marketing_dois .credouble a {
+    color: rgb(68, 68, 68);
+    font-style: italic;
+}
+
+.frases_marketing_dois .credouble a:hover {
+    color: black;
+    letter-spacing: 0.1px;
+    transition: all 0.2s ease-in-out;
+}
+
+
+body .rodape {
+    width: 100%;
+   
+    margin: auto;
+    padding: 15px;
+    background: linear-gradient(45deg, #01fc4c, #3a9c97);
+}
+
+.parte__fim {
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-size: 23px;
+   
+}
+
+.rodape p{
+    padding: 15px;
+}
+
+.rodape .icones__rodape{
+    padding: 10px;
+    margin: 10px;
+    font-size: 40px;
+    
+}
+
+.rodape .icones__rodape i{
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.rodape .icones__rodape i:hover{
+    font-size: 40.5;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
