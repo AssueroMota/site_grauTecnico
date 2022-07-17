@@ -281,7 +281,7 @@ img[alt=nubank] {
     justify-content: space-between;
     color: rgb(0, 0, 0);
     margin: auto;
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 15px;
     font-weight: 100;
     padding: 15px;
@@ -290,7 +290,7 @@ img[alt=nubank] {
 
 
 .cartoes_parceiros img {
-    width: 70%;
+    width: 80%;
     height: 100%;
 }
 
@@ -326,10 +326,56 @@ img[alt=nubank] {
     transition: all 0.2s ease-in-out;
 }
 
+.parte__quinta {
+    background: linear-gradient(45deg, #b3ffb9, #5cfc9f);
+    color: rgb(42, 42, 42);
+    width: 100%;
+    height: 400px;
+    display: block;
+    margin: auto;
+    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.historia img{
+    width: 100%;
+   margin-right: 400px;
+  
+  
+}
+
+.imagem_historia{
+    margin-right: 40px;
+}
+.historia{
+    display: flex;
+    margin: auto;
+  
+
+}
+
+.historia h2 {
+    font-size: 70px;
+    margin-top: 60px;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.historia p {
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
 
 body .rodape {
     width: 100%;
-   
     margin: auto;
     padding: 15px;
     background: linear-gradient(45deg, #01fc4c, #3a9c97);
@@ -340,26 +386,26 @@ body .rodape {
     display: block;
     text-align: center;
     font-size: 23px;
-   
+
 }
 
-.rodape p{
+.rodape p {
     padding: 15px;
 }
 
-.rodape .icones__rodape{
+.rodape .icones__rodape {
     padding: 10px;
     margin: 10px;
     font-size: 40px;
-    
+
 }
 
-.rodape .icones__rodape i{
+.rodape .icones__rodape i {
     padding: 15px;
     margin-bottom: 10px;
 }
 
-.rodape .icones__rodape i:hover{
+.rodape .icones__rodape i:hover {
     font-size: 40.5;
     color: white;
     transition: all 0.5s ease-in-out;
