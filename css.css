@@ -4,33 +4,35 @@
     box-sizing: border-box;
 }
 
-body {
-   
-}
-
 header {
     padding: 15px;
-    background: linear-gradient(45deg, #12cf4b, #3a9c97);
+    background: linear-gradient(45deg, #4fb80a, #9c3a3a);
     font-family: 'Montserrat', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 .navegador {
+    width: 1450px;
     display: flex;
     justify-content: space-between;
     list-style-type: none;
     align-items: center;
 }
+@media screen and (min-width: 720px) {
+    .navegador{
+        width: 1320px;
+    }
+}
+
+
 
 .Frase_logo span {
-    font-size: 45px;
+    font-size: 23px;
     color: white;
     font-weight: 900;
     padding: 15px;
     margin-left: 65px;
-    font-family: 'Inconsolata', monospace;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Cormorant SC', serif;
 }
 
 
@@ -81,7 +83,7 @@ header {
 }
 
 .cabecalho ul li ul li a {
-    color: #17ae44;
+    color: #138f38;
 
 }
 
@@ -93,15 +95,16 @@ header {
 
 
 .parte__secundaria {
-    background-image: url(boa-vista_2.jpg);
+    background-image: url(imagem\ inicial.jpg);
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    height: 250px;
+    height: 600px;
     padding: 5px;
+}
 
+@media screen and (max-width:600px) {
+    .parte__secundaria{
+        display: none;
+    }
 }
 
 .parte__secundaria:hover {
@@ -122,20 +125,19 @@ header {
     font-size: 30px;
     font-weight: bold;
     padding: 10px;
-    color: rgb(59, 59, 59);
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.9);
     border-radius: 10px;
     width: 72%;
     height: auto;
     margin: auto;
     margin-top: 50px;
-    background: linear-gradient(45deg, #a9fdb6, #21f460);
+    color: #e6e6e6;
     opacity: 0;
 }
 
 .frase_filosofica .um:hover {
     letter-spacing: 0.4px;
-    transition: all 1.5s ease-in-out;
+    transition: all 1s ease-in-out;
     cursor: pointer;
     opacity: 100%;
 }
@@ -145,8 +147,8 @@ body {
 }
 
 .parte__ternaria {
-    width: 85%;
-    height:px;
+    width: 80%;
+    height: px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -178,12 +180,12 @@ body {
 }
 
 .frases_marketing .credouble a {
-    color: #00a732;
+    color: #7f9b00;
     font-style: normal;
 }
 
 .frases_marketing .credouble a:hover {
-    color: #007124;
+
     transition: all 0.3s ease-in-out;
     letter-spacing: 0.2px;
 }
@@ -191,7 +193,7 @@ body {
 .container {
     margin-top: 10%;
     margin-right: 100px;
-    background: linear-gradient(45deg, #01fc4c, #3a9c97);
+    background: linear-gradient(45deg, #4fb80a, #9c3a3a);
     padding: 1em;
     border-radius: 10px;
     width: 15em;
@@ -282,7 +284,7 @@ img[alt=nubank] {
     justify-content: space-between;
     color: rgb(0, 0, 0);
     margin: auto;
-    margin-top: 2px;
+    margin-top: 20px;
     font-size: 15px;
     font-weight: 100;
     padding: 15px;
@@ -291,15 +293,13 @@ img[alt=nubank] {
 
 
 .cartoes_parceiros img {
-    width: 90%;
-   
-
+    margin-top: 55px;
+    width: 75%;
 }
 
 .cartoes_parceiros img:hover {
-    width: 89%;
     cursor: pointer;
-    transform: rotate(0.2deg);
+    opacity: 90%;
     transition: all 0.5s ease-in-out;
 }
 
@@ -316,11 +316,10 @@ img[alt=nubank] {
 }
 
 .frases_marketing_dois h1 a {
-    color: #00b737;
+    color: #7f9b00;
 }
 
 .frases_marketing_dois h1 a:hover {
-    color: #005118;
     letter-spacing: 0.2px;
     transition: all 0.4s ease-in-out;
 }
@@ -347,53 +346,109 @@ img[alt=nubank] {
 }
 
 .parte__quinta {
-    background: linear-gradient(45deg, #b3ffb9, #5cfc9f);
     color: rgb(42, 42, 42);
-    width: 100%;
-    height: 600px;
+    height: 400px;
+    width: 80%;
     display: block;
     margin: auto;
+    margin-top: ;
     font-family: 'Ibarra Real Nova', serif;
     font-family: 'Inconsolata', monospace;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
+}
 
+@media screen and (min-width: 720px) {
+    .parte__quinta{
+        width:90%;
+    }
+    .historia{
+        margin-top: 15px;
+        margin-right: 150px;
+    }
+    
 }
 
 .historia {
     display: flex;
-    justify-content: space-between;
+    text-align: center;
+    margin-right: 100px;
 }
 
 .imagem_historia {
-    width: 300%;
-    margin-bottom: 60%;
+    margin: auto;
+    width: 200px;
+    margin-top: 30px;
+    padding: 25px;
+
 }
 
 .historia img {
-    margin-top: 32%;
-    margin-bottom: 80%;
-    width: 70%;
+    width: 250px;
+    height: 200px;
+
 }
 
-.historia h2 {
-    
-    font-size: 70px;
-    margin-top: 30px;
-    text-align: center;
-    padding: 20px;
+.parte__quinta h2 {
+    font-size: 40px;
+    padding: 10px;
     font-weight: bold;
     font-style: italic;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
 }
 
+.texto_historia {
+    margin: auto;
+    width: 610px;
+    display: flex;
+    justify-content: space-between;
+}
 
 .historia p {
-    width: 50%;
     margin: auto;
-    margin-top: 40px;
     text-align: center;
     font-size: 17px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+}
+
+.tecno_nova {
+    height: 400px;
+    background-image: url(imagemtecno.jpg);
+    background-repeat: repeat;
+    background-position: right;
+}
+
+.nossa_tecno {
+    font-size: 19px;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    width: 350px;
+    margin: auto;
+    margin-left: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width:720px ) {
+    .nossa_tecno{
+        margin-left: 200px;
+    }
+    
+}
+
+.nossa_tecno p a {
+    font-size: 22px;
+}
+
+.nossa_tecno p a:hover {
+    font-size: 22px;
+    color: #e6e6e6;
+    transition: all 0.4s ease-in-out;
 }
 
 body .rodape {
@@ -415,11 +470,14 @@ body .rodape {
     padding: 15px;
 }
 
+.rodape .double {
+    margin-top: 20px;
+}
+
 .rodape .icones__rodape {
     padding: 10px;
     margin: 10px;
     font-size: 40px;
-
 }
 
 .rodape .icones__rodape i {
@@ -431,4 +489,24 @@ body .rodape {
     font-size: 40.5;
     color: white;
     transition: all 0.5s ease-in-out;
+}
+
+.playtores {
+    width: 50%;
+    margin: auto;
+    height: 80px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.playtores img {
+    padding: 15px;
+    width: 130px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
 }
