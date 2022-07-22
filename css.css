@@ -140,9 +140,9 @@ header {
 
 }
 
-@media screen and (min-width:1500px) {
+@media screen and (min-width:1600px) {
     .parte__secundaria .frase_filosofica .um {
-        margin-left: 60px;
+       text-align: center;
 
     }
 
@@ -195,7 +195,7 @@ body {
 @media screen and (min-width:1500px) {
 
     .parte__ternaria  {
-        width: 70%;
+        width: 82%;
         margin-left: 130px;
     }
 }
@@ -314,7 +314,7 @@ img[alt=nubank] {
 
 
 .parte__quatro {
-    width: 85%;
+    width: 80%;
     height: auto;
     display: flex;
     flex-direction: row-reverse;
@@ -332,7 +332,7 @@ img[alt=nubank] {
 @media screen and (min-width:1500px) {
 
     .parte__quatro  {
-        width: 70%;
+        width: 90%;
         margin-left: 130px;
     }
 }
@@ -406,7 +406,7 @@ img[alt=nubank] {
 @media screen and (min-width:1500px) {
 
     .parte__quinta  {
-        width: 70%;
+        width: 85%;
         margin-left: 130px;
     }
 }
@@ -517,17 +517,13 @@ img[alt=nubank] {
 body .rodape {
     width: 100%;
     margin: auto;
+    margin-right: 200px;
     padding: 15px;
     background: linear-gradient(45deg, #01fc4c, #3a9c97);
 }
 @media screen and (min-width:1500px) and (max-width:1800px) {
 
-    body .rodape .parte__fim{
-        margin-right: 250px;
-    }
-    body .rodape .playtores{
-        margin-left: 280px;
-    }
+ 
 }
 
 @media screen and (min-width:1850px) {
