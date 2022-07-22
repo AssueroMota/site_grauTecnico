@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: aqua;
+}
+
+.parte_moura h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 80px;
+}
+
+.parte_moura {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    height: 50%;
+    width: auto;
+   
+}
+
+.parte_moura img{
+    width: 70%;
+    padding: 50px;
+}
+.texto{
+    width: 100%;
+    display: block;
+    font-size: 50px;
+    text-align: center;
+}
+
+.parte_wel{
+    display: FLEX;
+
+}
+
+.parte_wel img{
+    width: 25%;
+    padding: 15px;
+   
+    margin: auto;
+    margin-top: 45px;
+}

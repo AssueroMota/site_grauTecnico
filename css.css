@@ -12,15 +12,27 @@ header {
 }
 
 .navegador {
-    width: 1450px;
+    width: 1320px;
     display: flex;
     justify-content: space-between;
     list-style-type: none;
     align-items: center;
 }
-@media screen and (min-width: 720px) {
-    .navegador{
-        width: 1320px;
+
+@media screen and (min-width:1500px) {
+    .navegador {
+        width: 1180px;
+    }
+
+}
+
+@media screen and (min-width: 600px) and (max-width:800px) {
+    .navegador {
+        width: px;
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        align-items: center;
     }
 }
 
@@ -35,6 +47,9 @@ header {
     font-family: 'Cormorant SC', serif;
 }
 
+@media screen and(min-width:1500px) and (max-widht:1600px) {
+    header .navegador .Frase_logo span {}
+}
 
 .Frase_logo span:hover {
     color: rgb(238, 236, 236);
@@ -97,12 +112,16 @@ header {
 .parte__secundaria {
     background-image: url(imagem\ inicial.jpg);
     background-repeat: no-repeat;
-    height: 600px;
-    padding: 5px;
+    background-position: center;
+    height: 200px;
+    padding: 7px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
 }
 
+
 @media screen and (max-width:600px) {
-    .parte__secundaria{
+    .parte__secundaria {
         display: none;
     }
 }
@@ -121,25 +140,37 @@ header {
 
 }
 
+@media screen and (min-width:1500px) {
+    .parte__secundaria .frase_filosofica .um {
+        margin-left: 60px;
+
+    }
+
+}
+
 .frase_filosofica .um {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
-    padding: 10px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.9);
-    border-radius: 10px;
+    padding: 1em;
+    border-radius: 0.5em;
     width: 72%;
+    background-color: (0, 0, 0, 1);
+    color: whitesmoke;
     height: auto;
     margin: auto;
-    margin-top: 50px;
-    color: #e6e6e6;
-    opacity: 0;
+    opacity: 100;
+    font-family: 'Cormorant SC', serif;
+    display: flex;
+    align-items: flex-end;
+    height: 200px;
+
 }
 
 .frase_filosofica .um:hover {
     letter-spacing: 0.4px;
     transition: all 1s ease-in-out;
     cursor: pointer;
-    opacity: 100%;
+
 }
 
 body {
@@ -148,7 +179,6 @@ body {
 
 .parte__ternaria {
     width: 80%;
-    height: px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -160,6 +190,14 @@ body {
     font-weight: 100;
     padding: 15px;
     font-family: 'Times New Roman', Times, serif;
+}
+
+@media screen and (min-width:1500px) {
+
+    .parte__ternaria  {
+        width: 70%;
+        margin-left: 130px;
+    }
 }
 
 
@@ -266,7 +304,7 @@ img[alt=nubank] {
 .container_dois {
     margin-top: 4%;
     margin-right: 200px;
-    background: linear-gradient(45deg, #01fc4c, #3a9c97);
+    background: linear-gradient(45deg, #4efc82, #3a9c97);
     padding: 1em;
     border-radius: 10px;
     width: 15em;
@@ -291,6 +329,13 @@ img[alt=nubank] {
     font-family: 'Times New Roman', Times, serif;
 }
 
+@media screen and (min-width:1500px) {
+
+    .parte__quatro  {
+        width: 70%;
+        margin-left: 130px;
+    }
+}
 
 .cartoes_parceiros img {
     margin-top: 55px;
@@ -358,15 +403,24 @@ img[alt=nubank] {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-@media screen and (min-width: 720px) {
-    .parte__quinta{
-        width:90%;
+@media screen and (min-width:1500px) {
+
+    .parte__quinta  {
+        width: 70%;
+        margin-left: 130px;
     }
-    .historia{
+}
+
+@media screen and (max-width: 720px) {
+    .parte__quinta {
+        width: 90%;
+    }
+
+    .historia {
         margin-top: 15px;
         margin-right: 150px;
     }
-    
+
 }
 
 .historia {
@@ -374,6 +428,8 @@ img[alt=nubank] {
     text-align: center;
     margin-right: 100px;
 }
+
+
 
 .imagem_historia {
     margin: auto;
@@ -415,18 +471,17 @@ img[alt=nubank] {
 }
 
 .tecno_nova {
-    height: 400px;
+    height: 420px;
     background-image: url(imagemtecno.jpg);
     background-repeat: repeat;
     background-position: right;
 }
 
 .nossa_tecno {
-    font-size: 19px;
+    font-size: 21px;
     height: 100%;
     color: rgb(255, 255, 255);
     width: 350px;
-    margin: auto;
     margin-left: 400px;
     display: flex;
     flex-direction: row-reverse;
@@ -434,11 +489,19 @@ img[alt=nubank] {
     align-items: center;
 }
 
-@media screen and (min-width:720px ) {
-    .nossa_tecno{
+
+@media screen and (min-width:1280px) and (max-width:1400px) {
+
+    .nossa_tecno {
         margin-left: 200px;
     }
-    
+
+}
+
+@media screen and (min-width:1800px) {
+    .nossa_tecno {
+        margin-left: 700px;
+    }
 }
 
 .nossa_tecno p a {
@@ -456,6 +519,25 @@ body .rodape {
     margin: auto;
     padding: 15px;
     background: linear-gradient(45deg, #01fc4c, #3a9c97);
+}
+@media screen and (min-width:1500px) and (max-width:1800px) {
+
+    body .rodape .parte__fim{
+        margin-right: 250px;
+    }
+    body .rodape .playtores{
+        margin-left: 280px;
+    }
+}
+
+@media screen and (min-width:1850px) {
+    body .rodape .parte__fim{
+margin-right: 300px;
+    }
+    body .rodape .playtores{
+   margin-left: 330px;
+    }
+    
 }
 
 .parte__fim {
@@ -508,5 +590,9 @@ body .rodape {
     text-align: center;
     align-items: center;
     justify-content: center;
+
+}
+
+.rodape{
 
 }

@@ -14,8 +14,8 @@
         const centerY = card.offsetTop + cardHeight/2;
         const positionX = event.clientX - centerX;
         const positionY = event.clientY - centerY;
-        const rotateX = ((+1)*3*positionY/(cardHeight/2)).toFixed(2);
-        const rotateY = ((-1)*21*positionX/(cardWidth/2)).toFixed(2);
+        const rotateX = ((+1)*5*positionY/(cardHeight/2)).toFixed(2);
+        const rotateY = ((-1)*20*positionX/(cardWidth/2)).toFixed(2);
 
         console.log(rotateX,rotateY);
 
@@ -23,18 +23,18 @@
 
     }
 
-    function tirarmouse(event)
-    {
-        card.style.transform = `perspective(1000px) rotateX(0deg) rotateY(0deg)`;
-        cardTransition();
-    }
+    // //function tirarmouse(event)
+    // {
+    //     card.style.transform = `perspective(400px) rotateX(0deg) rotateY(0deg)`;
+    //     cardTransition();
+    // }
 
     function cardTransition()
     {
         clearInterval(card.transitionId);
-        card.style.transition = 'transform 1000ms';
+        card.style.transition = 'transform 800ms';
         card.transitionId = setTimeout(() => {
-        card.style.transition = '';},400);
+        card.style.transition = '';},800);
     }
 
     function clickmouse(event)
