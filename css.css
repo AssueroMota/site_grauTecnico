@@ -19,9 +19,9 @@ header {
     align-items: center;
 }
 
-@media screen and (min-width:1500px) {
+@media screen and (min-width:1600px) {
     .navegador {
-        width: 1180px;
+        width: 1500px;
     }
 
 }
